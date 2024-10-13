@@ -1,0 +1,200 @@
+// * {
+//   margin: 0;
+//   padding: 0;
+//   box-sizing: border-box;
+//   font-family: "Poppins", sans-serif;
+//   font-weight: 500;
+//   font-style: normal;
+// }
+
+
+// .upper_nav{
+//     display: flex;
+//      justify-content: center;
+//     background-color: black;
+//     height: 50px;
+//     color: whitesmoke;
+
+//     .upper_nav_h1 h3{
+//         text-align: center;
+//         width: 70px;
+//         height: 28px;
+//         margin-top: 5px;
+//         margin-top: 10px;
+//         border-radius: 10px;
+//         background-color: #ec5d4d;
+//     }
+//     .upper_nav_h2{
+//           margin-top: 5px;
+//         margin-top: 10px;
+//         padding-left: 20px;
+
+//     }
+// }
+// .main_nav{
+//     height: 70px;
+//     display: flex;
+//     justify-content: space-between;
+//     border: 1px solid black;
+//     text-align: center;
+
+//     .nav_left ul {
+//         display: flex; 
+//         list-style: none;
+//         position: relative;
+//         top: 20px;
+//         left: 20px;
+//         gap: 45px;
+
+//     }
+//     .nav_left a{
+//         text-decoration: none;
+//         font-weight: 800;
+//         color: black;
+
+//     }
+//     .nav_middle img {
+//         height: 70px;
+//         position: relative;
+//         top: 10px;
+        
+//     }
+//     .nav_right{
+//         display: flex;
+//         position: relative;
+//         right: 40px;
+        
+//     }
+//     .nav_right_search{
+//         height: 30px;
+//         padding-right: 10px;
+//         position: relative;
+//         top: 20px;
+//         right: 95px;
+//         border: 1px solid black;
+//     }
+//     .nav_right_search_logo{
+//         display: flex;
+//         gap: 30px;
+//           position: relative;
+//         top: 25px;
+//         right: 60px;
+//     }
+
+//     .nav_right_search input{
+//         border: none;
+//         outline: none;
+//     }
+
+// }
+// .hero{
+
+
+//     .hero_img img{
+//         width: 100vw;
+
+//     }
+// }
+
+// * {
+//   margin: 0;
+//   padding: 0;
+//   box-sizing: border-box;
+//   font-family: "Poppins", sans-serif;
+//   font-weight: 500;
+//   font-style: normal;
+// }
+
+// .upper_nav {
+//   display: flex;
+//   justify-content: center;
+//   background-color: black;
+//   height: 50px;
+//   color: whitesmoke;
+
+//   .upper_nav_h1 {
+//     h3 {
+//       text-align: center;
+//       width: 70px;
+//       height: 28px;
+//       margin-top: 10px; // Fixed repeated margin
+//       border-radius: 10px;
+//       background-color: #ec5d4d;
+//     }
+//   }
+
+//   .upper_nav_h2 {
+//     margin-top: 10px; // Fixed repeated margin
+//     padding-left: 20px;
+//   }
+// }
+
+// .main_nav {
+//   height: 70px;
+//   display: flex;
+//   justify-content: space-between;
+//   border: 1px solid black;
+//   text-align: center;
+
+//   .nav_left {
+//     ul {
+//       display: flex;
+//       list-style: none;
+//       position: relative;
+//       top: 20px;
+//       left: 20px;
+//       gap: 45px;
+//     }
+
+//     a {
+//       text-decoration: none;
+//       font-weight: 800;
+//       color: black;
+//     }
+//   }
+
+//   .nav_middle {
+//     img {
+//       height: 70px;
+//       position: relative;
+//       top: 10px;
+//     }
+//   }
+
+//   .nav_right {
+//     display: flex;
+//     position: relative;
+//     right: 40px;
+
+//     .nav_right_search {
+//       height: 30px;
+//       padding-right: 10px;
+//       position: relative;
+//       top: 20px;
+//       right: 95px;
+//       border: 1px solid black;
+
+//       input {
+//         border: none;
+//         outline: none;
+//       }
+//     }
+
+//     .nav_right_search_logo {
+//       display: flex;
+//       gap: 30px;
+//       position: relative;
+//       top: 25px;
+//       right: 60px;
+//     }
+//   }
+// }
+
+// .hero {
+//   .hero_img {
+//     img {
+//       width: 100vw;
+//     }
+//   }
+// }
+
