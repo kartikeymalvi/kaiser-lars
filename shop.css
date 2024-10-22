@@ -6,16 +6,14 @@
   
   font-style: normal;
 }
-
 nav{
-  position: fixed;
-  height: 250px;
+  position: sticky;
+  height: 50px;
   width: 100%;
-  z-index: 1;
+ 
 }
 .upper_nav {
   display: flex;
-  
    height: 50px;
   width: 100%;
   justify-content: center;
@@ -108,74 +106,13 @@ nav{
   top: 21px;
   right: 60px;
 }
-.nav_right_search_logo a:hover{
-  transform: scale(1.03);
-  transition: 0.3s;
-}
- .hero{
-  height: 150vh;
- }
-
-.hero_img img {
-width: 100%; 
-  
-height: 100vh;
-  
-}
-.hero_heading{
-  position: absolute;
-  bottom: 190px;
-  left: 450px;
-  font-size: 30px;
-  font-weight: 1000;
-  color: white;
-
-}
-.hero_heading h1{
-    font-size: 100px;
-  font-weight: 900;
-  color: white;
-}
-.hero_heading p{
-  font-size: 35px;
-  text-align: center;
-}
-.hero_cards{
-
-  display: flex;
-  justify-content: center;
-     margin: 40px;
-     height: 40%;
-
-}
-.hero_cards img{
-    height: 350px;
-    padding: 20px;
-
-}
-.hero_cards img:hover{
- transform: scale(1.05); 
-  transition: 0.3s;
-}
-.card_btn:hover{
-  transform: scale(1.05); 
-  transition: 0.3s;
-}
-
-.card_btn {
-    position: relative;
-    bottom: 50px;
-    left: 160px;
-  height: 50px;
-  width: 150px;
-  border: none;
-  background-color: black;
-  font-weight: 750;
-  color: white;
-}
 #top_trending{
   height: 165vh;
   
+}
+.nav_right_search_logo a:hover{
+  transform: scale(1.03);
+  transition: 0.3s;
 }
 .trending_cards{
      display: grid;
@@ -232,47 +169,6 @@ height: 100vh;
      
   
 }
-
-.showcase{
-  margin-top: 100px;
-  display: flex;
-  gap: 40px;
-  
-
-}
-.showcase_img img{
-  height: 550px;
-  margin-left: 50px;
-}
-.showcase_content_heading{
-  margin-top: 100px;
-  
-}
-.showcase_content_heading h1{
-  
-  font-size: 50px;
-    font-weight: 900;
-}
-.showcase_content_heading p{
-  margin-top: 20px;
-  
-}
-.showcase_content_heading button{
-   border: none;
-  margin-top: 50px;
-  
-  height: 50px;
-  width: 140px;
-  background-color: black;
-  color: white;
-  font-weight: 800;
-  font-size: 15px;
-}
-.showcase_content_heading button:hover{
-    transform: scale(1.05); 
-  transition: 0.3s;
-  cursor: pointer;
-}
 #new_arrivals{
   height: 100vh;
 }
@@ -310,153 +206,11 @@ display: grid;
     margin-left: 100px;
      font-weight: 900;
 }
-#reviews{
-  height: 80vh;
-  background-color: whitesmoke;
-}
-.reviews_heading h1{
-    margin-left: 65px;
-   padding-top: 20px;
-    font-size: 40px;
-    font-weight: 850;
-
-}
-.reviews_main{
-  margin: 70px;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 150px;
-
-}
-
-.reviews_cards{
-  
-  height: 150px;
-  width: 600px; 
-  margin-left: 25px;
-}
-.reviews_cards1{
-  background-color: white;
-  border-radius: 10px;
-  height: 300px;
-  width: 600px;
-  
-}
-.reviews_cards1_left{
-  display: flex;
-}
-.reviews_cards1_h4 h4{
-  position: relative;
-  top: 5px;
-  left: 40px;
-}
-.reviews_cards1_star{
-    margin-top: 10px;
-  position: relative;
-  top: 5px;
-  left: 40px;
-}
-.reviews_cards1_p{
- margin-top: 10px;
-  position: relative;
-  top: 5px;
-  left: 40px;
-  padding: 10px;
-}
-
-.reviews_cards1_img {
-  position: relative;
-  bottom: 30px;
-    left: 30px;
-}
-.reviews_cards1_img img{
-  height: 150px;
-}
-.reviews_cards1_p p{
-  width: 350px;
-  padding-top: 20px; 
-  
-  
-}
-.reviews_cards_footer{
-  display: flex;
-  
-}
-.reviews_cards_footer img{
-  position: relative;
-  
-  left: 30px;
-  height: 75px;
-}
-.reviews_cards_footer_heading p{
-     position: relative;
-     left: 70px;
-     top: 20px;
-
-}
-.reviews_cards1_1st{
-  border-bottom: 1px solid grey;
-}
-
-.reviews_cards2{
-  display: flex;
-  flex-direction: column;
-}
-#offer{
-    height: 40vh;
-}
-.offer_section{
-  margin-top: 70px;
-}
-.offer_section_heading{
-  text-align: center;
-  margin-bottom: 40px;
-}
-.offer_section_heading h1{
-  font-size: 35px;
-  font-weight: 900;
-
-}
-.offer_section_email{
-  text-align: center;
-  font-size: 15px;
-
-}
-.offer_section_email input{
-  height: 45px;
-  width: 500px;
-  font-size: 15px;
-  padding: 0;
-   margin: 0;
-  
- 
-}
-.offer_section_email button{
-height: 45px;
-width: 140px;
-border: none;
-   padding: 0;
-   margin: 0;
-   font-size: 15px;
-   background-color: black;
-      color: white;
-      font-weight: 700;
-}
-.offer_section_email button:hover{
-    transform: scale(1.1);
-     transition: 0.5s;
-   cursor: pointer; 
-}
-.offer_section_terms{
-  margin-top: 20px;
-  display: flex;
-   justify-content: center;
-   gap: 10px;
-}
 footer{
   height: 65vh;
   background-color: black;
   color: white;
+  margin-top: 20px;
   
 }
 .footer_main{
@@ -509,6 +263,4 @@ footer{
   padding: 30px;
   
 }
-
-
 
